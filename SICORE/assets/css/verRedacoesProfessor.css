@@ -1,0 +1,84 @@
+.grande{
+  display:flex;
+  flex-direction: column;
+  width:50vw;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.caixa1{
+  background: #f6f6f6;
+  height: auto;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width:50vw;
+}
+.botao{
+  background: #00a65a;
+  height: 30px;
+  width: 50vw;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  border-radius: 0 0 2px 2px;
+}
+.b-corrigir{
+  background: #00a65a;
+  height: 30px;
+  width: 50vw;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  border-radius: 0 0 2px 2px;
+  border: 0;
+
+}
+.b-corrigir:hover{
+  background-color: #008D4C;
+}
+.a{
+  text-align: center;
+  margin-right: 30px;
+}
+.n-red{
+  margin-left: 30px;
+}
+.cent{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .caixa1{
+    width: 100%;
+    height: 100%;
+    padding-top: 23px;
+    padding-bottom: 19px;
+  }
+  .sim{
+    padding: 0;
+  }
+  .botao{
+    width: 100%;
+    height: 100%;
+  }
+  .grande{
+    margin-right: 0;
+    margin-left: 0;
+    width: 93vw;
+  }
+  .n{
+    margin-left: 38px;
+  }
+  .b-corrigir {
+    margin-left: 82px;
+}
+.a{
+  margin-top: 35px;
+}
+}

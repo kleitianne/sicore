@@ -1,0 +1,17 @@
+.media{
+	width: 50vw;
+	height: 100vh;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px; 
+	padding-right: 40px; 
+}
+.content-header{
+	padding-top: 0 !important;
+	background-color: #1a2226 !important;
+	background: ;
+}
+.dropdown-toggle{
+	color: white !important;
+}

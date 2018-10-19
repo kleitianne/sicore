@@ -1,0 +1,81 @@
+.divzona{
+	width: 50vw;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 30px;
+}
+.blocos{
+	display: flex;
+	flex-flow: row wrap;
+	margin-right: auto;
+	margin-left: 21%;
+	padding-bottom: 80px;
+	color: white;
+	text-align: center;
+}
+.nota{
+	font-size: 45px;
+}
+.nome{
+	font-size: 15px;
+}
+.nprim{
+	margin-top: 23px;
+}
+.terc{
+	margin-top: -12px;
+}
+.prim{
+	margin-top: 30px;
+}
+.seg{
+	margin-top: 19px;
+}
+.primeiro{
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+	background-color: #2DBE60;
+}
+.segundo{
+	width: 150px;
+    height: 115px;
+    margin-top: 65px;
+	background-color: #5DC28B;
+}
+.terceiro{
+	width: 150px;
+	height: 96px;
+    margin-top: 84px;
+	background-color: #68D89B;
+}
+@media only screen and (max-width: 600px) {
+ 	.divzona{
+ 		width: 80vw;
+ 	}
+ 	.primeiro{
+	width: 100px;
+	height: 150px;
+	margin-top: 30px;
+}
+.segundo{
+	width: 100px;
+    height: 115px;
+    margin-top: 65px;
+}
+.terceiro{
+	width: 100px;
+	height: 96px;
+    margin-top: 84px;
+}
+.blocos{
+	margin-left: -12px;
+}
+.prim, .seg{
+	margin-top: 1px;
+}
+.terc{
+	margin-top: -19px;
+}
+
+}

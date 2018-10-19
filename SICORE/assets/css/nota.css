@@ -1,0 +1,38 @@
+.info-correcao{
+	font-size: 17px;
+}
+.dados-aluno{
+	padding-left: 10px;
+	padding-bottom: 37px;
+}
+tr:nth-child(odd) {
+	background-color:#ffffff;
+	}
+	tr:nth-child(even) {
+	background-color:#C2D8C8 ;
+	}
+
+.tamanho{
+	font-size: 17px;
+}
+.tamanhos{
+	font-size: 15px;
+}
+.dados-aluno p{
+	display: inline-block;
+	font-size: 15px;
+}
+.divizinha{
+	width: 50vw;
+	margin-left: auto; 
+	margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+ 	.divizinha{
+ 		width: 80vw;
+ 	}
+}
+
+
+/* main*/
+

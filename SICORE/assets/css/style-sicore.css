@@ -1,0 +1,102 @@
+.fundo-login{
+  background-color: transparent;
+}
+.logo-login{
+  height: 1.5em;
+  width: auto;
+}
+.wrapper .main-header .navbar .hover:hover{
+background-color: #1a2226;
+}
+.linha{
+height: 1px;
+background-color: #2dbe60;
+}
+.btn-sicore{
+background-color: #29a757; 
+width: 10em; 
+color: lightgray;
+}
+.btn-sicore:hover{
+background-color: transparent;
+border: 1px solid #29a757; 
+width: 10em; 
+color: #29a757;
+}
+.part{
+  width: 200px;
+}
+form .row .col-xs-4{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5em;
+}
+.btn-login{
+background-color: #343a40; 
+width: 10em; 
+color: white;
+}
+.btn-login:hover{
+background-color: transparent;
+border: 1px solid #343a40; 
+width: 10em; 
+color: #343a40;
+}
+.content-wrapper{background-color: #ffff;}
+.content-wrapper .content-header{padding-top:2em;}
+.content-wrapper .content form{width: 78vw;}
+
+.titulo-sicore{
+font-size: 17px;
+}
+.content-wrapper .content form .form-group input[type="date"]{
+border-radius: 5px; 
+border:1px solid #2dbe60;
+outline: none;
+padding: 0.2em 0.7em;
+}
+.content-wrapper .content form .alert{
+border-radius: 10px; 
+background-color:  transparent;
+border: 1px solid #29a757; 
+
+}
+.content-wrapper .content form .alert .form-group
+{ border-bottom: 1px solid #29a757; padding-bottom: 1em}
+.content-wrapper .content form .alert select{
+  border-radius: 5px; 
+  border:1px solid #2dbe60;
+  outline: none;
+  padding: 0.2em 0.7em;
+}
+.content .row .col-md-3 .box-solid{
+  border: 0;
+  box-shadow: none;
+}
+.content .row .col-md-3 .box-solid .box-body{
+  background-color: #F1F2F2;
+  border-radius: 15px 15px 0px 0px;
+}
+.content .row .col-md-3 .box-solid .box-header{
+  text-align: center; 
+  border-radius: 0px 0px 15px 15px;
+}
+.content .row .col-md-3 .box-solid .box-header small{
+  color: white;
+}
+.content .row .col-md-3 .div-evento{
+ display: flex;
+ padding-top: 2.5em;
+ padding-left: 7em;
+}
+.content .row .col-md-3 .div-evento .btn-app{
+  background-color: #2dbe60;
+  color: white;
+  border-radius: 15px;
+}
+.user-panel>.image>img{
+  width: 100% !important;
+  max-width: 50px !important;
+  height: 50px !important;
+}
